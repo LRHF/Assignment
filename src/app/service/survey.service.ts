@@ -9,7 +9,7 @@ import { ISurvey } from '../interface/survey.interface';
 })
 export class SurveyService {
 
-    private baseUrlSurveys = '/api/surveys.json';
+    private baseUrlSurveys = '/api/surveys.js';
 
     constructor (private http: HttpClient){ }
 
