@@ -55,10 +55,7 @@ import { CardModule } from 'primeng/card';
     InputNumberModule,
     ConfirmDialogModule,
     InputTextareaModule,
-    RouterModule.forRoot([
-      {path:'',component: AppComponent}
-
-		])
+    RouterModule.forRoot([{path:'', component: AppComponent}],{ useHash: true })
   ],
   declarations: [ AppComponent ],
   bootstrap:    [ AppComponent ],
