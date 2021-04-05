@@ -14,7 +14,7 @@
           </ng-template>
       </p-toolbar>
 
-      <p-table #dt [value]="surveys" [rows]="10" [paginator]="true" [globalFilterFields]="['survey.id','survey.date','survey.name']"
+      <p-table #dt [value]="surveys" [rows]="10" [paginator]="true" [globalFilterFields]="['id','date','name']"
           [(selection)]="selectedSurveys" [rowHover]="true" dataKey="id"
           currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries" [showCurrentPageReport]="true" styleClass="p-datatable-sm p-datatable-gridlines"
           [resizableColumns]="true" [autoLayout]="true">
